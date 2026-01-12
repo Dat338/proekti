@@ -1,0 +1,227 @@
+/* #region firstsection */
+.firstsection {
+    padding: 100px 0px;
+    background-image: url(../photos/people.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 170px;
+}
+.firstsectiontext {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 100px;
+    width: 40%;
+
+}
+.firstsectiontext h2 {
+    color: white;
+    letter-spacing: 0.2em;
+    font-size: 30px;
+}
+.firstsectiontext p {
+    color: white;
+    line-height: 1.5em;
+    font-size: 14px;
+    animation: appear 1s;
+}
+
+
+
+/* #endregion firstsection */
+/* #region secondsection */
+
+
+.secondsection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0px;
+    width: 100%;
+}
+.secondsectionmain {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+.secondbox {
+    height: 325px;
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: rgb(1,38,70);
+}
+.secondbox .secondboxtext {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.secondbox .secondboxtext > .tallline{
+    height: 15px;
+    margin-bottom: 10px;
+    background-color: black;
+}
+.secondsectionmain > .secondbox:nth-child(1) {
+    background-image: url(../photos/firework.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.secondsectionmain > .secondbox:nth-child(1):hover {
+    transform: scale(105%);
+}
+.secondsectionmain > .secondbox:nth-child(4) {
+    background-image: url(../photos/forest.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.secondsectionmain > .secondbox:nth-child(4):hover {
+    transform: scale(105%);
+}
+.secondsectionmain > .secondbox:nth-child(5) {
+    background-image: url(../photos/egg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.secondsectionmain > .secondbox:nth-child(5):hover {
+    transform: scale(105%);
+}
+.whitebutton {
+    padding: 8px 15px;
+    border: solid 1px;
+    background-color: white;
+}
+
+/* #endregion secondsection */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 470px) {
+    .secondbox {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .secondsectionmain {
+        grid-template-columns: 1fr;
+    }
+    .secondsectionmain > :nth-child(3) {
+    order: 4;
+  }
+  .secondsectionmain > :nth-child(4) {
+    order: 3;
+  }
+  .secondsectionmain > :nth-child(5) {
+    order: 5;
+  }
+  .secondsectionmain >:nth-child(6)  {
+    order: 6;
+  }
+}

@@ -1,0 +1,111 @@
+.firstsec {
+  height: 40vh;
+  width: 100%;
+  background-image: url(../photos/84770f_cbb616c8fac84482b014ed77163961a4~mv2.jpg);
+  background-position: top center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 170px;
+  animation: appear 1s;
+}
+.firstsec h2 {
+  font-size: 30px;
+  letter-spacing: 0.2em;
+  color: white;
+  text-align: center;
+}
+.firstsec p {
+  text-align: center;
+  color: white;
+  line-height: 1.5em;
+  width: 750px;
+  animation: appear 1s;
+}
+
+.secondsec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 150px 0px;
+}
+.secondsec .secaboutus {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.secondsec .box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  width: 282px;
+  min-width: 280px;
+}
+.secondsec .box h3 {
+  letter-spacing: 5px;
+  color: rgb(47, 46, 46);
+  font-size: 18px;
+}
+.secondsec .box .line {
+  margin-left: 100px;
+  color: rgb(47, 46, 46);
+}
+.secondsec .box p {
+  color: rgb(47, 46, 46);
+}
+
+.thirdsec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 150px 0px;
+  background-color: rgba(204, 204, 204, 0.2);
+}
+.thirdsec .thirdsecmid {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.thirdsec .thirdsecmid .thirdsectext {
+  width: 356px;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  min-width: 360px;
+}
+.thirdsec .thirdsecmid .thirdsectext h3 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  color: rgb(1, 38, 70);
+}
+.thirdsec .thirdsecmid .thirdsectext p {
+  color: rgb(47, 46, 46);
+}
+
+@media screen and (max-width: 800px) {
+  .firstsec p {
+    width: 350px;
+  }
+  .thirdsec video {
+    width: 360px;
+    height: 250px;
+  }
+  .thirdsec .thirdsecmid {
+    flex-direction: column;
+  }
+  .thirdsec .thirdsecmid .thirdsectext {
+    text-align: center;
+  }
+  .thirdsec .thirdsecmid .thirdsectext .line {
+    margin-left: 140px;
+  }
+}/*# sourceMappingURL=aboutus.css.map */

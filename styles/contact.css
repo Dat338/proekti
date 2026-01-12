@@ -1,0 +1,108 @@
+
+/* #region firstsection */
+.firstsection {
+    padding: 100px 0px;
+    background-image: url(../photos/84770f_41fe698c167d49e6b0d7f7ea0d4fb0df~mv2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 170px;
+}
+.firstsectiontext {
+    text-align: center;
+    width: 50%;
+}
+.firstsectiontext h2 {
+    color: white;
+    letter-spacing: 0.2em;
+    font-size: 30px
+}
+.firstsectiontext p {
+    line-height: 1.5em;
+    color: white;
+    font-size: 14px;
+    animation: appear 1s;
+}
+
+/* #endregion firstsection */
+/* #region secondsection  */
+.secondsection {
+    padding: 150px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+.sectionup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.sectionright {
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 10px;
+    min-width: 370px;
+}
+.contactForm{ 
+    display: flex;
+    gap: 14px;
+}
+.sectionright button {
+    padding: 8px 30px;
+    background-color: rgb(5, 5, 77);
+}
+.sectionright input {
+    height: 35px;
+    outline: none;
+}
+.sectionright textarea {
+    resize: none;
+    outline: none;
+}
+.sdm1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100px;
+}
+.sdm {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+.sdm1 p {
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+/* #endregion secondsection */
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 505px) {
+    iframe {
+        width: 370px;
+        height: 250px;
+    }
+}

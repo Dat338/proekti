@@ -1,0 +1,155 @@
+/* #region sectionfirst */
+
+.sectionfirst {
+    width: 100%;
+    padding: 100px 0px;
+    background-image: url(../photos/3b1f25_0c879616f0414d26997352cbcf27a1ec.jpg);
+    background-position: center ;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 170px;
+}
+.sectionrfirsttext {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 45%;
+    gap: 15px;
+    color: white;
+}
+.sectionrfirsttext p {
+    color: white;
+    line-height: 1.5em;
+    font-size: 14px;
+    animation: appear 1s;
+}
+.sectionrfirsttext h2 {
+    letter-spacing: 0.2em;
+    font-size: 30px;
+}
+/* #endregion sectionfirst */
+
+/* #region sectionsecond */
+.sectionsecond {
+    padding: 100px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sectionsecondtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 55%;
+    gap: 20px;
+}
+.sectionsecondtext h2 {
+    font-size: 18px;
+    letter-spacing: 0.2em;
+}
+.sectionsecondtext p {
+    font-size: 14px;
+    line-height: 1.7em;
+}
+
+
+
+
+
+
+
+/* #endregion sectionsecond */
+
+/* #region sectionthird  */
+.sectionthird {
+    padding: 120px 0px;
+    background-color: rgb(204 204 204 / 20%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sectionthirdleft {
+    width: 552px;
+    height: 287px;
+    background-image: url(../photos/84770f_41fe698c167d49e6b0d7f7ea0d4fb0df~mv2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sectionthirdmain {
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.sectionthirdmain p{
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+.sectionthirdright {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    min-width: 342;
+}
+.sectionthirdright h2 {
+    font-size: 18px;
+    letter-spacing: 0.2em;
+}
+
+/* #endregion sectionthird */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .sectionrfirsttext h2 {
+        font-size: 18px;
+    }
+    .sectionthirdleft {
+        width: 375px;
+    }
+
+}

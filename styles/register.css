@@ -1,0 +1,88 @@
+.sectionuptext {
+    display: flex;
+    gap: 20px;
+}
+.sectionuptext .tallline {
+    height: 25px;
+}
+.sectionup h2 {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.sectionup {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 170px;
+    padding: 100px 0px;
+}
+.sectionup button {
+    padding: 10px 20px;
+}
+.sectionpic {
+    width: 979px;
+    height: 552px;
+    background-image: url(../photos/firework.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+}
+.sectionupmaintxt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sectionup p {
+    margin-bottom: 0px;
+}
+.sectiondown {
+    margin-right: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: baseline;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 980px ) {
+    .sectionpic {
+        width: 600px;
+        height: 400px;
+    }
+    .sectiondown {
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .sectionpic {
+        width: 375px;
+        height: 250px;
+    }
+    .sectiondown {
+        margin-right: 0px;
+    }
+}
